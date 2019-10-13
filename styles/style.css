@@ -10,10 +10,6 @@
     clear: both;
 }
 
-.main {
-    position: relative;
-}
-
 .alert--position {
     position: sticky;
     top: 10px;
@@ -21,6 +17,7 @@
     max-width: 100px;
     text-align: center;
     margin-left: 10px;
+    margin-top: 10px;
     z-index: 1;
 }
 
@@ -43,6 +40,7 @@
     top: 10px;
     float: right;
     margin-right: 10px;
+    margin-top: 10px;
     z-index: 1;
 }
 
@@ -179,4 +177,17 @@
     {
         transform: translate3d(-50%, 5%, 0)
     }
+}
+
+.btn--mar-fix {
+    margin: 0!important;
+}
+
+.dropdown-menu--bg {
+    background: #d4edda;
+    right: 0!important;
+}
+
+.alert-success {
+    border: none;
 }
