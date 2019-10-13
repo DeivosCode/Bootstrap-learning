@@ -10,17 +10,17 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    width: 100%;
+    position: relative;
 }
 
 .alert--position {
     position: sticky;
+    float: left;
     top: 10px;
     max-width: 100px;
     text-align: center;
     margin: 5px;
     margin-left: 10px;
-    float: left;
     z-index: 100;
 }
 
@@ -30,11 +30,13 @@ body {
 }
 
 .dropdown--position {
-    float: right;
+    /* float: right; */
     position: sticky;
-    z-index: 100;
+    float: right;
     top: 10px;
+    right: 0;
     margin: 10px;
+    z-index: 100;
 }
 
 .btn--pad {
