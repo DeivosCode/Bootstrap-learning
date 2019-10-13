@@ -13,13 +13,22 @@ body {
     position: relative;
 }
 
+.main {
+    position: relative;
+}
+
+.alert--container {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
 .alert--position {
-    position: sticky;
-    float: left;
-    top: 10px;
+    position: fixed;
+    left: 0;
     max-width: 100px;
     text-align: center;
-    margin: 5px;
+    margin: 10px;
     margin-left: 10px;
     z-index: 100;
 }
@@ -30,12 +39,10 @@ body {
 }
 
 .dropdown--position {
-    /* float: right; */
-    position: sticky;
-    float: right;
-    top: 10px;
+    position: fixed;
     right: 0;
     margin: 10px;
+    margin-right: 10px;
     z-index: 100;
 }
 
@@ -76,4 +83,9 @@ body {
 
 .container {
     color: #fff;
+}
+
+.alert-success--position {
+    margin: 30px auto; 
+    width: 50%;
 }
