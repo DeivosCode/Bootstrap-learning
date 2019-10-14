@@ -199,3 +199,39 @@
 .alert-success {
     border: none;
 }
+
+@media screen and (max-width: 768px) {
+    .mobile-header {
+        font-size: 39px;
+    }
+
+    .mobile-description {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .container {
+        padding-bottom: 15px;
+    }
+
+    .wrapper {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    margin: 30px auto 0;
+    align-items: center;
+    transform: none;;
+    z-index: 1;
+    }
+
+    .jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    padding: 30px;
+    height: 335px; /* 295px */
+    box-sizing: content-box;
+}
+}
