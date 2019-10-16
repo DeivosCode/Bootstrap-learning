@@ -235,3 +235,7 @@
         box-sizing: content-box;
     }
 }
+
+.card-img-height {
+    max-height: 190px;
+}
